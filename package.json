@@ -20,5 +20,8 @@
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "i": "^0.3.6",
+    "npm": "^6.5.0"
+  }
 }
