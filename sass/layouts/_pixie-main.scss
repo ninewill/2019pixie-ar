@@ -19,7 +19,7 @@ html {
     body,
     html {
         overflow-y: auto;
-        background-color: #979797;
+        background-color: #fff;
     }
 }
 
@@ -53,10 +53,8 @@ body {
 
 a {
     font-size: 16px;
-    color: #333333;
     text-decoration: none;
     text-decoration: none;
-    color: #333333;
     /* color: var(--link-text); */
     outline: none;
     display: inline-block;
@@ -64,8 +62,8 @@ a {
 
 a:hover,
 a:focus {
-    color: #333;
-    color: var(--link-text-hover);
+    // color: #333;
+    // color: var(--link-text-hover);
 }
 
 .hidden {
@@ -456,12 +454,13 @@ a:focus {
 
 .grid--layout-1 a:nth-child(13) {
     grid-area: 17 / 26 / 20 / 28;
-    background-color: #e5e5e5;
+    background-image: linear-gradient(45deg,#7c2bff 0,#1d76f8 50%,#7c2bff 100%);
 }
 
 .grid--layout-1 a:nth-child(14) {
     grid-area: 17 / 3 / 21 / 6;
-    background-color: #e5e5e5;
+    background-image: linear-gradient(45deg,#7c2bff 0,#1d76f8 50%,#7c2bff 100%);
+    
 }
 
 .grid--layout-1 a:nth-child(15) {
