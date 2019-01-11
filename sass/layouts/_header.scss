@@ -109,19 +109,6 @@
         margin-left: 60px;
         margin-top: -3px;
     }
-    .link{
-        display: block;
-        margin-right: 0;
-        padding-bottom: 5px;
-    }
-    .link::after{
-        display: none;
-    }
-    .about{
-        text-align: right;
-        display: block;
-        margin-left: 0;
-    }
     .copyright{
         display: none;
     }
@@ -144,7 +131,17 @@
         display: none;
     }
 }
-
+@media only screen and (max-width: 960px){
+    .link{
+        display: none;
+    }
+    .link::after{
+        display: none;
+    }
+    .about{
+        display: none;
+    }
+}
 
 /* grid */
 .js .grid{

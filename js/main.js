@@ -15,4 +15,8 @@ jQuery(document).ready(function($){
 			});
 		}
 	});
+	
+	// $(".cd-nav-trigger").click(function(event){
+	// 	$('footer').toggle();
+	// });
 });
